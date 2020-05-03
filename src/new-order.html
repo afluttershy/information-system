@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Новый заказ</title>
+</head>
+<body>
+    <form class="add-form">
+        <h1>Добавление нового заказа</h1>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">ID заявки</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>Выберите ID заявки</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputDate">Дата</label>
+            <input type="datetime-local" value="2017-06-01T08:30" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="status">Статус</label>
+            <select class="form-control" id="status">
+              <option>Введите статус</option>
+              <option>В обработке</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="price">Сумма к оплате</label>
+            <input type="text" class="form-control" id="price">
+        </div>
+        <div class="form-group">
+            <label for="status2">Статус оплаты</label>
+            <select class="form-control" id="status2">
+              <option>Не оплачено</option>
+              <option>Оплачено</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Добавить</button>
+        <a href="orders.html"><button type="button" class="btn btn-info">Назад</button></a>
+
+    </form>
+</body>
+</html>
