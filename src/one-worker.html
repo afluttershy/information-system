@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Просмотр и редактирование клиента</title>
+    <title>Просмотр и редактирование сотрудника</title>
 </head>
 <body class="body">
     <form class="add-form">
-        <h1>Просмотр и редактирование клиента #1234</h1>
+        <h1>Просмотр и редактирование сотрудника #1234</h1>
         <div class="form-group">
             <label for="fio">ФИО</label>
             <input type="text" class="form-control" id="fio">
@@ -18,6 +18,16 @@
         <div class="form-group">
             <label for="inputDate">Дата рождения</label>
             <input type="date" class="form-control">
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col">
+                <label>Серия паспорта</label>
+                <input type="text" class="form-control" placeholder="Введите серию паспорта">
+            </div>
+            <div class="col">
+                <label>Номер паспорта</label>
+                <input type="text" class="form-control" placeholder="Введите номер паспорта">
+            </div>
         </div>
         <div class="form-group">
             <label for="number">Телефон</label>
@@ -27,8 +37,17 @@
             <label for="email">Электронная почта</label>
             <input type="text" class="form-control" id="email">
         </div>
-        
-        <a href="clients.html"><button type="button" class="btn btn-info">Назад</button></a>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col">
+                <label>Номер договора</label>
+                <input type="text" class="form-control" placeholder="Введите номер договора">
+            </div>
+            <div class="col">
+                <label>Заработная плата (в рублях)</label>
+                <input type="text" class="form-control" placeholder="Введите зарплату">
+            </div>
+        </div>
+        <a href="workers.html"><button type="button" class="btn btn-info">Назад</button></a>
         <button type="button" class="btn btn-success">Сохранить</button>
         <button type="button" class="btn btn-danger">Удалить</button>
 
